@@ -1,6 +1,6 @@
 /*
- * print-styles
- * https://github.com/saldridge/grunt-plugins
+ * print
+ * https://github.com/saldridge/print
  *
  * Copyright (c) 2014 Seth Aldridge
  * Licensed under the MIT license.
