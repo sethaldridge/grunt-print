@@ -1,6 +1,6 @@
 /*
- * print
- * https://github.com/saldridge/print
+ * grunt-print
+ * https://github.com/saldridge/grunt-print
  *
  * Copyright (c) 2014 Seth Aldridge
  * Licensed under the MIT license.
