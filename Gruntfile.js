@@ -1,5 +1,5 @@
 /*
- * print-styles
+ * print
  * https://github.com/saldridge/grunt-plugins
  *
  * Copyright (c) 2014 Seth Aldridge
@@ -29,23 +29,23 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    print_styles: {
-      default_options: {
+    print: {
+      main: {
         options: {
+          template: 'test/fixtures/print.html'
         },
         files: {
-          'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123'],
-        },
+          'tmp/print.html': ['test/fixtures/print.css']
+        }
       },
-      custom_options: {
+      test: {
         options: {
-          separator: ': ',
-          punctuation: ' !!!',
+          template: 'test/fixtures/main.html'
         },
         files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123'],
-        },
-      },
+          'tmp/main.html': ['test/fixtures/main.css']
+        }
+      }
     },
 
     // Unit tests.
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'print_styles', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'print', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);

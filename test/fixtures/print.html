@@ -1,0 +1,46 @@
+<div class="configure-print">
+    <img class="logo" src="assets/img/logo.png"/>
+    <p class="product-title">${product.name}</p>
+    <div class="large-image">
+        <img src="https://d22xf2qtjwaix4.cloudfront.net/recipe/${RECIPE_ID}/image/Back.png?height=556&width=342" alt="${product.name}" />
+    </div>
+    <div class="large-image">
+        <img src="https://d22xf2qtjwaix4.cloudfront.net/recipe/${RECIPE_ID}/image/Front.png?height=556&width=342" alt="${product.name}" />
+    </div>
+    <div class="clearfix"></div>
+    <div class="content">
+        <div class="design-selections">
+            <span class="title">Custom Specs</span>
+            <span class="url">View Online: 
+                <a style="text-transform:none;" href="${SHARE_URL}">${SHARE_URL}</a>
+            </span>
+        </div>
+        {{each product.attributeGroups}}
+            {{each attributes}}
+                {{if preview}}
+                    <div class="column">
+                        <div class="name">
+                            ${name}
+                        </div>
+                        <div class="selection">
+                            <div class="swatch">
+                                {{html preview}}
+                            </div>
+                            <div class="value">
+                                ${value}
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                {{/if}}
+            {{/each}}
+        {{/each}}
+        <div class="clearfix"></div>
+    </div>
+    <div class="footer">
+        <span class="print-date">Date</span>
+        <span class="print-url">
+            <a href="http://franklinsports.com/custom" target="_blank">franklinsports.com/custom</a>
+        </span>
+    </div>
+</div>

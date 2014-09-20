@@ -1,5 +1,5 @@
 {
-  "name": "print-styles",
+  "name": "print",
   "description": "Take CSS and make them inline for HTML print emails",
   "version": "0.1.0",
   "homepage": "https://github.com/saldridge/grunt-plugins",
@@ -28,15 +28,20 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.1.1",
+    "cssom": "^0.3.0",
+    "grunt": "~0.4.5",
     "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-jshint": "~0.1.1",
     "grunt-contrib-nodeunit": "~0.1.2",
-    "grunt": "~0.4.5"
+    "jsdom": "^1.0.0-pre.7"
   },
   "peerDependencies": {
     "grunt": "~0.4.5"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "print",
+    "css",
+    "parse"
   ]
 }

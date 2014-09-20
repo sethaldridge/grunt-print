@@ -1,0 +1,92 @@
+.configure-print {
+  width: 95%;
+}
+.configure-print .logo {
+  display: block;
+  margin: 0 auto;
+  width: 142px;
+}
+.configure-print .product-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.35em 0;
+}
+.configure-print .large-image {
+  margin: 50px auto;
+  float: left;
+  width: 50%;
+}
+.configure-print .content {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.configure-print .content .design-selections {
+  border-bottom: 2px solid #000;
+  padding: .5em 0;
+  margin: 0 0 20px;
+}
+.configure-print .content .design-selections span.title {
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+.configure-print .content .design-selections span.url {
+  float: right;
+  font-family: Arial, sans-serif;
+  line-height: 23px;
+  font-weight: 700;
+}
+.configure-print .content .design-selections span.url a {
+  text-transform: none;
+}
+.configure-print .content .column {
+  float: left;
+  width: 46%;
+  margin-right: 4%;
+  height: 46px;
+  padding: 13px 0;
+  border-bottom: 1px dotted #000;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.configure-print .content .column .name {
+  margin-right: 2%;
+  width: 48%;
+  float: left;
+}
+.configure-print .content .column .selection {
+  width: 50%;
+  float: left;
+}
+.configure-print .content .column .selection .swatch {
+  float: left;
+  margin-right: 10px;
+}
+.configure-print .content .column .selection .swatch .configure-selected-value-print-header {
+  width: 20px;
+  height: 20px;
+  border: none;
+}
+.configure-print .footer {
+  color: #2e2e2e;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  padding: 50px 0;
+}
+.configure-print .footer .print-date {
+  float: left;
+  width: 50%;
+}
+.configure-print .footer .print-url {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.configure-print .clearfix {
+  color: red;
+}
