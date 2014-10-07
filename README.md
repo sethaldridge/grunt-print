@@ -1,6 +1,6 @@
 # grunt-print
 
-> Take CSS and make them inline for HTML print emails
+> Take external CSS styles and make them inline for HTML print emails
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
