@@ -1,7 +1,7 @@
 {
   "name": "grunt-print",
   "description": "Take external CSS styles and make them inline for HTML print emails",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/saldridge/grunt-print",
   "author": {
     "name": "Seth Aldridge",
